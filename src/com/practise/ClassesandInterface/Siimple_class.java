@@ -9,14 +9,14 @@ public class Siimple_class {
         Flight flight1 = new Flight();
         flight1.AddPassenger();
         flight1.DisplayPassenger();
-        flight1.AddPassenger();
-        flight1.DisplayPassenger();
+        System.out.println(flight1.hasRoom(flight1));
 
-        Flight[]  Arrays = new Flight[3];
-        Arrays[0] = new Flight();
-
-        Arrays[0].AddPassenger();
-        Arrays[0].DisplayPassenger();
+        //array
+//        Flight[]  Arrays = new Flight[3];
+//        Arrays[0] = new Flight();
+//
+//        Arrays[0].AddPassenger();
+//        Arrays[0].DisplayPassenger();
 
     }
 }

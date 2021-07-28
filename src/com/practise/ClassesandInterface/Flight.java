@@ -17,10 +17,23 @@ package com.practise.ClassesandInterface;
             seats--;
         }
     }
+     boolean hasRoom(Flight f1)
+    {
+        int total = passengers + f1.passengers;
+        return  total<=seats;
+    }
     void DisplayPassenger()
     {
         System.out.println("Total Psengers : "+passengers);
         System.out.println("Total seats reaming : "+seats);
+    }
+    public int getSeats()
+    {
+        return seats;
+    }
+    public void setSeats(int seats)
+    {
+        this.seats = seats;
     }
 
 }
